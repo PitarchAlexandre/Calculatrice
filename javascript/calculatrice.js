@@ -40,6 +40,6 @@ const effacer = document.getElementById('clear');
 //Constante affichant le résulat du calcul
 const resultatCalcul = document.getElementById('resultat');
 
-
+f
 
 
