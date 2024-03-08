@@ -40,6 +40,11 @@ const effacer = document.getElementById('clear');
 //Constante affichant le résulat du calcul
 const resultatCalcul = document.getElementById('resultat');
 
-f
+//Déclaration des variables qui permettront d'insérer les nombres insérés par l'utilisateur
+let nombre1 = 0;
+let nombre2 = 0;
+
+//Déclaration de l'oppérateur
+let operateur;
 
 
