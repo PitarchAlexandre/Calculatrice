@@ -1,9 +1,9 @@
 # Calculatrice Web
 Bienvenue sur mon projet de calculatrice, conçu dans le but de développer mes compétences en HTML, CSS et Javascript. Cette page publique fait également partie intégrante de mon portfolio en tant que démonstration de mes compétences de développement web.
-##    Fonctionnalités clés :
+##    Fonctionnalités clés : ##
 
-        -- **Calculatrice interactive :** Une interface conviviale permettant de réaliser des opérations de base.
-        **HTML, CSS, et Javascript :**
+        Calculatrice interactive : Une interface conviviale permettant de réaliser des opérations de base.
+        HTML, CSS, et Javascript :
         
 
 N'hésitez pas à explorer le code source et à contribuer en soumettant des problèmes ou des demandes d'extraction. Votre feedback est précieux pour mon apprentissage continu.
