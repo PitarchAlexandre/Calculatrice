@@ -2,9 +2,50 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Calculatricer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculatrice</title>
+    <meta name="Calculatrice" content="calculatrice personnalisable addition multiplication soustraction division">
+    <!--LIEN CSS-->
+    <link rel="stylesheet" href="css/main.css">
+    <!--Il FAUDRA METTRE DES ICONES ICI-->
 </head>
-<body>
 
+<body>
+<header>
+    <nav>
+
+    </nav>
+</header>
+<main>
+<h1>Calculatrice</h1>
+
+<div class="calculatrice">
+    <span class="resultat">0</span>
+    <div class="btnCalculatrice">
+        <ul>
+            <!--PREMIRE LIGNE-->
+            <li><input type="button" class="btnChiffre" id="7" value="7"></li>
+            <li><input type="button" class="btnChiffre" id="8" value="8"></li>
+            <li><input type="button" class="btnChiffre" id="9" value="9"></li>
+            <!--DEUXIEME LIGNE-->
+            <li><input type="button" class="btnChiffre" id="4" value="4"></li>
+            <li><input type="button" class="btnChiffre" id="5" value="5"></li>
+            <li><input type="button" class="btnChiffre" id="6" value="6"></li>
+            <!--TROISIEME LIGNE-->
+            <li><input type="button" class="btnChiffre" id="1" value="1"></li>
+            <li><input type="button" class="btnChiffre" id="2" value="2"></li>
+            <li><input type="button" class="btnChiffre" id="3" value="3"></li>
+            <!--QUATRIEME LIGNE-->
+            <li><input type="button" class="btnChiffre" id="+/-" value="+/-" </li>
+            <li><input type="button" class="btnChiffre" id="0" value="0"></li>
+            <li><input type="button" class="btnChiffre" id="," value=","></li>
+        </ul>
+
+    </div>
+</div>
+
+</main>
+<!--JAVASCRIPT-->
+<script src="javascript/calculatrice.js"></script>
 </body>
 </html>
