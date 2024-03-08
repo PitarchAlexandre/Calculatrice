@@ -19,12 +19,24 @@ const chiffre8 = document.getElementById('8');
 const chiffre9 = document.getElementById('9');
 const chiffre0 = document.getElementById('0');
 
-//Permet de convertir les chiffre en négatif/positif
+//Déclaration des opérateurs
+const diviser = document.getElementById('clear');
+const multiplier = document.getElementById('multiplication');
+const soustraire = document.getElementById('soustraction');
+const additionner = document.getElementById('addition');
+
+//Constante permettant de convertir les chiffre en négatif/positif
 const negatifPositif = document.getElementById('+/-');
 
-//Permet de mettre une virgule dans le nombre
+//Constante permettant de mettre virgule dans le nombre
 const virguleJs = document.getElementById('virgule');
 
-//x
+//Constant permettant à l'utilisateur de stocker des nombres dans la calculatrice
+const egal = document.getElementById('=');
+
+//Constante éffacer
+const effacer = document.getElementById('clear');
+
+
 
 
