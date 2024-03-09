@@ -69,13 +69,8 @@ function ajouterChiffre(chiffre) {
     nombre = parseFloat(nombre);
     return nombre;
 }
-let choixChiffre
 
-chiffre1.onclick = ajouterChiffre(chiffre = '1');
-chiffre2.onclick = ajouterChiffre(chiffre = '2');
-chiffre3.onclick = ajouterChiffre(chiffre = '3');
-
-
+console.log(nombre1);
 /*
 nombre += '1';
 console.log(nombre);
@@ -86,5 +81,5 @@ console.log(nombre);
 
 
 
-/*
-affichage.innerText = resultatCalcul;*/
+
+affichage.innerText = resultatCalcul
