@@ -7,6 +7,9 @@
 
 'use strict'; // Active le mode strict du JavaScript
 
+//Déclaration des boutons de la calculatrice
+const bouton = document.getElementsByClassName('btnCalculatrice');
+
 //Déclaration des chiffres qui lie les boutons aux js
 const chiffre1 = document.getElementById('1');
 const chiffre2 = document.getElementById('2');
@@ -27,7 +30,7 @@ const soustraire = document.getElementById('soustraction');
 const additionner = document.getElementById('addition');
 
 //Contient le résultat du calcul
-let resultatCalcul = 0;
+let resultatCalcul ;
 
 //Constante permettant de convertir les chiffre en négatif/positif
 const negatifPositif = document.getElementById('+/-');
@@ -45,32 +48,43 @@ const effacer = document.getElementById('clear');
 const affichage = document.getElementById('affichageNombre');
 
 //Permet de stocker les nombres convertis en chiffre
-let nombre;
+let nombre = 0;
 let chiffre;
 //Déclaration des variables qui permettront d'insérer les nombres de l'utilisateur
 //afin de calculer
 let nombre1 = 0;
 let nombre2 = 0;
 
-
-
 //Déclaration de l'oppérateur
 let operateur;
 
 //fin de la déclaration des variables
 //////////////////////////////////////////
-//CODE ALGORiTHMNIQUE
+//CODE ALGORITHMNIQUE
 
+//Déclaration de la fonction permettant de convertir le nombre de la calculatrice
+//de châine de caractère en nombre à virgule
 function ajouterChiffre(chiffre) {
-    nombre += '1';
-
-    nombre = int(nombre);
-
-    console.log(nombre);
+    nombre += chiffre;
+    nombre = parseFloat(nombre);
+    return nombre;
 }
+let choixChiffre
 
-resultatCalcul += 1;
+chiffre1.onclick = ajouterChiffre(chiffre = '1');
+chiffre2.onclick = ajouterChiffre(chiffre = '2');
+chiffre3.onclick = ajouterChiffre(chiffre = '3');
 
-affichage.innerText = resultatCalcul;
 
-console.log(resultatCalcul);
+/*
+nombre += '1';
+console.log(nombre);
+nombre += '2';
+nombre = parseFloat(nombre);
+console.log(nombre);
+*/
+
+
+
+/*
+affichage.innerText = resultatCalcul;*/

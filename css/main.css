@@ -9,7 +9,7 @@
     background-color: orange;
 }
 
-.affichageNombre {
+.conteneurNombre {
     /*Forme case d'affichage*/
     width: 330px;
     height: 50px;
