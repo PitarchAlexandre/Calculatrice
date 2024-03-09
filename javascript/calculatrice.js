@@ -45,7 +45,7 @@ const effacer = document.getElementById('clear');
 const affichage = document.getElementById('affichageNombre');
 
 //Permet de stocker les nombres convertis en chiffre
-let nombre = 0;
+let nombre;
 let chiffre;
 //Déclaration des variables qui permettront d'insérer les nombres de l'utilisateur
 //afin de calculer
@@ -62,11 +62,14 @@ let operateur;
 //CODE ALGORiTHMNIQUE
 
 function ajouterChiffre(chiffre) {
-    nombre += chiffre;
+    nombre += '1';
+    nombre = int(nombre);
+
+    console.log(nombre);
 }
 
 resultatCalcul += 1;
 
 affichage.innerText = resultatCalcul;
 
-console.log(affichage);
+console.log(resultatCalcul);
