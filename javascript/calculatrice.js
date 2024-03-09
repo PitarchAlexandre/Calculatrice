@@ -63,6 +63,7 @@ let operateur;
 
 function ajouterChiffre(chiffre) {
     nombre += '1';
+
     nombre = int(nombre);
 
     console.log(nombre);
