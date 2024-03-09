@@ -6,7 +6,6 @@
     height: 450px;
     border: solid black;
     border-radius: 10px;
-    font-family: 'Calculator', sans-serif;
 }
 
 .affichageNombre {
@@ -17,8 +16,9 @@
     margin: 5px auto;
     align-content: center;
     border: solid black;
-    /*Forme affichage text*/
+    /*Police de l'affichage*/
     text-align: right;
+    font-family: 'Calculator', sans-serif;
     font-size: xxx-large;
 }
 
