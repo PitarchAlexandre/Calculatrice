@@ -22,7 +22,6 @@ const chiffre8 = document.getElementById('8');
 const chiffre9 = document.getElementById('9');
 const chiffre0 = document.getElementById('0');
 
-
 //Déclaration des opérateurs
 const diviser = document.getElementById('clear');
 const multiplier = document.getElementById('multiplication');
@@ -45,9 +44,9 @@ const egal = document.getElementById('=');
 const effacer = document.getElementById('clear');
 
 //Constante affichant le résulat du calcul
-const affichage = document.getElementById('affichageNombre');
+let affichage = document.getElementById('affichageNombre');
 
-//Permet de stocker les nombres convertis en chiffre
+//Permet de stocker les nombres, qui ont été convertis de 'string' à 'chiffre'
 let nombre = 0;
 let chiffre;
 //Déclaration des variables qui permettront d'insérer les nombres de l'utilisateur
@@ -62,15 +61,77 @@ let operateur;
 //////////////////////////////////////////
 //CODE ALGORITHMNIQUE
 
-//Déclaration de la fonction permettant de convertir le nombre de la calculatrice
-//de châine de caractère en nombre à virgule
-function ajouterChiffre(chiffre) {
+//Déclaration de la fonction permettant de calculer
+function conversionStringFloat() {
+    //permettant de convertir le nombre de la calculatrice de châine de caractère
+    // en nombre à virgule
+    affichage.innerText = nombre;
     nombre += chiffre;
     nombre = parseFloat(nombre);
-    return nombre;
 }
 
-console.log(nombre1);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+//remet l'écram à zéro
+function nettoyage(){
+    affichage.clear;
+    nombre = 0;
+    affichage.innerText = nombre;
+}
+
+effacer.onclick = affichage.clear;
+
+console.log(nombre)
+
+/*
+chiffre1.onclick = calculer('1');
+chiffre2.onclick = calculer('2');
+chiffre3.onclick = calculer('3');
+chiffre4.onclick
+chiffre5.onclick
+chiffre6.onclick
+chiffre7.onclick
+chiffre8.onclick
+chiffre9.onclick
+chiffre0.onclick
+*/
+
+
+//affiche le résultat du calcul sur l'écran de la calculatrice
+
+
 /*
 nombre += '1';
 console.log(nombre);
@@ -80,6 +141,3 @@ console.log(nombre);
 */
 
 
-
-
-affichage.innerText = resultatCalcul
