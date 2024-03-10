@@ -35,8 +35,10 @@ modulo.addEventListener('click', function(){
 function executeOperation(operation){
 
     //permet de stocker le nombre inséré dans le 1er input
+    //et de controler que c'est un nombre et pas un autre caractère
     let nbr1 = parseFloat(nombre1.value);
     //permet de stocker le nombre inséré dans le 2ème input
+    //et de controler que c'est un nombre et pas un autre caractère
     let nbr2 = parseFloat(nombre2.value);
 
     //déclaration de la variables qui permet de stocker le résultat du calcul
