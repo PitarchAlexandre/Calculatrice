@@ -18,6 +18,11 @@ main{
     max-width: 500px;
 }
 
+h1 {
+    font-family: 'Calculator', sans-serif;
+    font-size: 90px;
+}
+
 .imgJs{
     justify-content: center;
     align-items: center;
