@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c8377082-8eaa-480a-81d4-1f340b1bc5f8" name="Changes" comment="code js pour l'affichage de l'écran + ajout chiffres">
+      <change afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript/calculatrice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2dQ9kyVGnT0b645kIyiedfXwLVy" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c8377082-8eaa-480a-81d4-1f340b1bc5f8" name="Changes" comment="" />
+      <created>1709929581648</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709929581648</updated>
+      <workItem from="1709929582892" duration="822000" />
+      <workItem from="1709930419027" duration="16367000" />
+      <workItem from="1709980792420" duration="10093000" />
+      <workItem from="1710104344470" duration="467000" />
+    </task>
+    <task id="LOCAL-00001" summary="Ajout de l'index.html, du dossier css et javascript">
+      <option name="closed" value="true" />
+      <created>1709930505875</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709930505875</updated>
+    </task>
+    <task id="LOCAL-00002" summary="création des chiffres en html">
+      <option name="closed" value="true" />
+      <created>1709934488888</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709934488888</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ajout des variables constantes javascript et du contenu sto1 2 et 3">
+      <option name="closed" value="true" />
+      <created>1709936519084</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709936519084</updated>
+    </task>
+    <task id="LOCAL-00004" summary="toutes les variable constantes des boutons de la calculatrice">
+      <option name="closed" value="true" />
+      <created>1709937682232</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709937682232</updated>
+    </task>
+    <task id="LOCAL-00005" summary="toutes les variable constantes des boutons de la calculatrice">
+      <option name="closed" value="true" />
+      <created>1709938552424</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709938552424</updated>
+    </task>
+    <task id="LOCAL-00006" summary="toutes les variable constantes des boutons de la calculatrice + ajout css">
+      <option name="closed" value="true" />
+      <created>1709938570310</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1709938570310</updated>
+    </task>
+    <task id="LOCAL-00007" summary="toutes les variable constantes des boutons de la calculatrice">
+      <option name="closed" value="true" />
+      <created>1709938857522</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1709938857522</updated>
+    </task>
+    <task id="LOCAL-00008" summary="changement des input type=&quot;button&quot; par des bouttons">
+      <option name="closed" value="true" />
+      <created>1709942063081</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1709942063081</updated>
+    </task>
+    <task id="LOCAL-00009" summary="changement de la police de la calculatrice">
+      <option name="closed" value="true" />
+      <created>1709942710598</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1709942710598</updated>
+    </task>
+    <task id="LOCAL-00010" summary="changement de la police de la calculatrice">
+      <option name="closed" value="true" />
+      <created>1709942777225</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1709942777225</updated>
+    </task>
+    <task id="LOCAL-00011" summary="changement de la police de la calculatrice">
+      <option name="closed" value="true" />
+      <created>1709943580646</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1709943580646</updated>
+    </task>
+    <task id="LOCAL-00012" summary="changement de la police de la calculatrice">
+      <option name="closed" value="true" />
+      <created>1709943599390</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1709943599390</updated>
+    </task>
+    <task id="LOCAL-00013" summary="code js pour l'affichage de l'écran + ajout chiffres">
+      <option name="closed" value="true" />
+      <created>1709946106556</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1709946106556</updated>
+    </task>
+    <task id="LOCAL-00014" summary="code js pour l'affichage de l'écran + ajout chiffres">
+      <option name="closed" value="true" />
+      <created>1709946363791</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1709946363791</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Ajout de l'index.html, du dossier css et javascript" />
+    <MESSAGE value="création des chiffres en html" />
+    <MESSAGE value="ajout des variables constantes javascript et du contenu sto1 2 et 3" />
+    <MESSAGE value="toutes les variable constantes des boutons de la calculatrice + ajout css" />
+    <MESSAGE value="toutes les variable constantes des boutons de la calculatrice" />
+    <MESSAGE value="changement des input type=&quot;button&quot; par des bouttons" />
+    <MESSAGE value="changement de la police de la calculatrice" />
+    <MESSAGE value="code js pour l'affichage de l'écran + ajout chiffres" />
+    <option name="LAST_COMMIT_MESSAGE" value="code js pour l'affichage de l'écran + ajout chiffres" />
+  </component>
+</project>

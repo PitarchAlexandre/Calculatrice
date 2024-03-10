@@ -31,8 +31,7 @@ main{
     justify-content: center;
     align-items: center;
     text-align:center;
-    font-family: arial;
-
+    font-family: Arial, sans-serif;
     max-width: 500px;
     margin:20px;
 }
