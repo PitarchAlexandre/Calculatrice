@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8377082-8eaa-480a-81d4-1f340b1bc5f8" name="Changes" comment="création de fenêtre confirm">
-      <change beforePath="$PROJECT_DIR$/javascript/calculatrice.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/calculatrice.js" afterDir="false" />
+    <list default="true" id="c8377082-8eaa-480a-81d4-1f340b1bc5f8" name="Changes" comment="Optimisation du switch">
       <change beforePath="$PROJECT_DIR$/javascript/msgAccueil.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/msgAccueil.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -205,7 +204,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710107033787</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Optimisation du switch">
+      <option name="closed" value="true" />
+      <created>1710107798735</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1710107798735</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,6 +231,7 @@
     <MESSAGE value="modification de la police et la taille de la police de titre 1" />
     <MESSAGE value="modification de la police et la taille de la police de niveau 1" />
     <MESSAGE value="création de fenêtre confirm" />
-    <option name="LAST_COMMIT_MESSAGE" value="création de fenêtre confirm" />
+    <MESSAGE value="Optimisation du switch" />
+    <option name="LAST_COMMIT_MESSAGE" value="Optimisation du switch" />
   </component>
 </project>
