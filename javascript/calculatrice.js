@@ -1,4 +1,4 @@
-//recherchere des deux nombres insérés par l'utilisateur
+//Stocke les deux nombres insérés par l'utilisateur
 let nombre1 = document.getElementById('chiffre1');
 let nombre2 = document.getElementById('chiffre2');
 let resultat = document.getElementById('resultat');
@@ -10,57 +10,58 @@ const multiplier = document.getElementById('multiplication');
 const diviser = document.getElementById('division');
 const modulo = document.getElementById('mod');
 
+//permet d'additioner  lorsque l'utilisateur presse "+" et appelle la fonction qui effectue les calcules
 additionner.addEventListener('click', function(){
     executeOperation('addition');
 })
-
+//permet de soustraire  lorsque l'utilisateur presse "-" et appelle la fonction qui effectue les calcules
 soustraire.addEventListener('click', function(){
     executeOperation('soustraction');
 })
-
+//permet de multiplier lorsque l'utilisateur presse "*" et appelle la fonction qui effectue les calcules
 multiplier.addEventListener('click', function(){
     executeOperation('multiplication');
 })
-
+//permet diviser lorsque l'utilisateur presse "/" et appelle la fonction qui effectue les calcules
 diviser.addEventListener('click', function(){
     executeOperation('division');
 })
-
+//permet d'obtenir le modulo lorsque l'utilisateur presse "%" et appelle la fonction qui effectue les calcules
 modulo.addEventListener('click', function(){
     executeOperation('mod')
 })
 
+//fonction qui effectue les calculs
 function executeOperation(operation){
 
+    //permet de stocker le nombre inséré dans le 1er input
     let nbr1 = parseFloat(nombre1.value);
+    //permet de stocker le nombre inséré dans le 2ème input
     let nbr2 = parseFloat(nombre2.value);
 
-    let somme = 0;
-    let difference = 0;
-    let produit = 0;
-    let quotient = 0;
-    let moduloResult = 0;
+    //déclaration de la variables qui permet de stocker le résultat du calcul
+    let resultatCalcul = 0;
 
     switch (operation){
         case 'addition':
-            somme = nbr1 + nbr2;
-            resultat.innerText = String(somme);
+            resultatCalcul = nbr1 + nbr2;
+            resultat.innerText = String(resultatCalcul);
             break;
         case 'soustraction':
-            difference = nbr1 - nbr2;
-            resultat.innerText = String(difference);
+            resultatCalcul = nbr1 - nbr2;
+            resultat.innerText = String(resultatCalcul);
             break;
         case 'multiplication':
-            produit = nbr1 * nbr2;
-            resultat.innerText = String(produit);
+            resultatCalcul = nbr1 * nbr2;
+            resultat.innerText = String(resultatCalcul);
             break;
         case 'division':
-            quotient = nbr1 / nbr2;
-            resultat.innerText = String(quotient);
+            resultatCalcul = nbr1 / nbr2;
+            resultat.innerText = String(resultatCalcul);
             break;
         case 'mod':
-            moduloResult = nbr1 % nbr2;
-            resultat.innerText = String(moduloResult);
+            resultatCalcul = nbr1 % nbr2;
+            resultat.innerText = String(resultatCalcul);
             break;
     }
 }
