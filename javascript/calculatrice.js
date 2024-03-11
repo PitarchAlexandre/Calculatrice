@@ -1,3 +1,10 @@
+/**
+ * Calculatrice
+ * @author  Alexandre Pitarch
+ * @version 1.0
+ * @since   2024-03-09
+ */
+
 //Stocke les deux nombres insérés par l'utilisateur
 let nombre1 = document.getElementById('chiffre1');
 let nombre2 = document.getElementById('chiffre2');

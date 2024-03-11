@@ -1,3 +1,9 @@
+/**
+ * Calculatrice
+ * @author  Alexandre Pitarch
+ * @version 1.0
+ * @since   2024-03-10
+ */
 
 const message = 'Ce site n\'utilise pas encore de cookies, car je n\'ai pas encore les compétences informatiques pour ' +
                 'le faire. 😔\n' +
