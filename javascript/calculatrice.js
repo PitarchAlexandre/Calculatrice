@@ -10,6 +10,9 @@
 //Déclaration des boutons de la calculatrice
 const bouton = document.getElementsByClassName('btnCalculatrice');
 
+
+const btnChiffre = document.getElementsByClassName('btnChiffre');
+
 //Déclaration des chiffres qui lie les boutons aux js
 const chiffre1 = document.getElementById('1');
 const chiffre2 = document.getElementById('2');
@@ -61,27 +64,121 @@ let operateur;
 //////////////////////////////////////////
 //CODE ALGORITHMNIQUE
 
+chiffre1.addEventListener('click', function () {
+    conversionStringFloat(chiffre1.innerText)
+});
+chiffre2.addEventListener('click', function () {
+    conversionStringFloat(chiffre2.innerText)
+});
+chiffre3.addEventListener('click', function (){
+    conversionStringFloat(chiffre3.innerText)
+});
+chiffre4.addEventListener('click', function () {
+    conversionStringFloat(chiffre4.innerText);
+});
+chiffre5.addEventListener('click', function () {
+    conversionStringFloat(chiffre5.innerText);
+});
+chiffre6.addEventListener('click', function () {
+    conversionStringFloat(chiffre6.innerText);
+});
+chiffre7.addEventListener('click', function () {
+    conversionStringFloat(chiffre7.innerText);
+});
+chiffre8.addEventListener('click', function () {
+    conversionStringFloat(chiffre8.innerText);
+});
+chiffre9.addEventListener('click', function () {
+    conversionStringFloat(chiffre9.innerText);
+});
+chiffre0.addEventListener('click', function () {
+    conversionStringFloat(chiffre0.innerText);
+});
+virguleJs.addEventListener('click', function () {
+    conversionStringFloat(virguleJs.innerText);
+});
+effacer.addEventListener('click', function () {
+    nettoyage();
+})
+additionner.addEventListener('click', function () {
+    nombre1 = conversionStringFloat();
+    opperation(nombre1)
+})
 //Déclaration de la fonction permettant de calculer
-function conversionStringFloat() {
+function conversionStringFloat(chiffre) {
     //permettant de convertir le nombre de la calculatrice de châine de caractère
     // en nombre à virgule
+    if (chiffre.value === '+'){
+        nombre === nombre;
+    }
+    else {
+        nombre += chiffre;
+        affichage.innerText = nombre;
+        nombre = parseFloat(nombre);
+    }
+    return nombre;
+}
+function opperation(nombre1) {
+    nombre1;
+    nombre2;
+
+    chiffre1.addEventListener('click', function () {
+        affichage.clear();
+        conversionStringFloat(chiffre1.innerText)
+    });
+    chiffre2.addEventListener('click', function () {
+        conversionStringFloat(chiffre2.innerText)
+    });
+    chiffre3.addEventListener('click', function (){
+        conversionStringFloat(chiffre3.innerText)
+    });
+    chiffre4.addEventListener('click', function () {
+        conversionStringFloat(chiffre4.innerText);
+    });
+    chiffre5.addEventListener('click', function () {
+        conversionStringFloat(chiffre5.innerText);
+    });
+    chiffre6.addEventListener('click', function () {
+        conversionStringFloat(chiffre6.innerText);
+    });
+    chiffre7.addEventListener('click', function () {
+        conversionStringFloat(chiffre7.innerText);
+    });
+    chiffre8.addEventListener('click', function () {
+        conversionStringFloat(chiffre8.innerText);
+    });
+    chiffre9.addEventListener('click', function () {
+        conversionStringFloat(chiffre9.innerText);
+    });
+    chiffre0.addEventListener('click', function () {
+        conversionStringFloat(chiffre0.innerText);
+    });
+    virguleJs.addEventListener('click', function () {
+        conversionStringFloat(virguleJs.innerText);
+    });
+    egal.addEventListener('click', function () {
+        resultatCalcul = nombre1 + nombre2;
+    })
+}
+
+//remet l'écram à zéro
+function nettoyage(){
+    affichage.clear;
+    nombre = 0;
     affichage.innerText = nombre;
-    nombre += chiffre;
-    nombre = parseFloat(nombre);
 }
 
 
 
+let a = 32;
+let b = 45.2;
+let c ='32';
 
+let d = parseFloat( a + b +c);
 
+d = d / 2;
 
-
-
-
-
-
-
-
+console.log(d);
 
 
 
@@ -103,6 +200,15 @@ function conversionStringFloat() {
 
 
 /*
+
+//Déclaration de la fonction permettant de calculer
+function conversionStringFloat() {
+    //permettant de convertir le nombre de la calculatrice de châine de caractère
+    // en nombre à virgule
+    affichage.innerText = nombre;
+    nombre += chiffre;
+    nombre = parseFloat(nombre);
+}
 
 //remet l'écram à zéro
 function nettoyage(){
