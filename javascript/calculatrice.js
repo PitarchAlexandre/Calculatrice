@@ -11,15 +11,16 @@ let chiffre = document.getElementsByClassName('btnChiffre');
 let nombre = 0;
 let affichage = document.getElementById('affichageNombre');
 
+//conditions qui per
 for (let i = 0; i < chiffre.length; i++){
     chiffre[i].addEventListener('click', function () {
-        if (chiffre.id === '0' ) {
-            chiffre = .delete();
+        //Permet d'enlevé le '0' initial sur la calculatrice lorsque l'on tape un chiffre sur la calculatrice
+        if (affichage.innerText ==='0' ) {
+            affichage.innerText = '';
         }
         affichage.innerText += this.innerText;
         conversionNombre(chiffre.id);
     });
-
 }
 
 function conversionNombre (chiffre) {
