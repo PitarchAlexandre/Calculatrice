@@ -13,9 +13,13 @@ let affichage = document.getElementById('affichageNombre');
 
 for (let i = 0; i < chiffre.length; i++){
     chiffre[i].addEventListener('click', function () {
+        if (chiffre === '0') {
+            chiffre = chiffre.delete();
+        }
+        affichage.innerText += this.innerText;
         conversionNombre(chiffre.id);
     });
-    affichage.innerText = chiffre.id;
+
 }
 
 function conversionNombre (chiffre) {
