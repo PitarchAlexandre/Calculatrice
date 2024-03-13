@@ -14,4 +14,4 @@ N'hésitez pas à explorer le code source et à contribuer en soumettant des pro
 2. Ouvrez le fichier index.html dans votre navigateur web.
 3. Profitez de la calculatrice interactive et explorez le code pour comprendre son fonctionnement.
 
-Je suis ouvert à toute suggestion ou amélioration. Merci de prendre le temps de découvrir ce projet et de contribuer à ma croissance en tant que développeur web.
+Je suis ouvert à toute suggestion ou amélioration. Merci de prendre le temps de découvrir ce projet.
