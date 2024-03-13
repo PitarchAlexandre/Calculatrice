@@ -31,7 +31,7 @@ for (const chiffre of tabChiffres) {
             affichage.innerText = '';
         }
         //Affiche le nombre sur la calculatrice
-        affichage.innerText += this.innerText;
+        affichage.innerText += chiffre.innerText;
         //Appel la fonction qui converti le chiffre de chaîne de caractère à Float
         nombre1 = conversionNombre(tabChiffres.id);
         executionOperation(nombre1)
