@@ -11,18 +11,22 @@ const tabChiffres = document.getElementsByClassName('btnChiffre');
 let nombre = 0;
 let affichage = document.getElementById('affichageNombre');
 
-//conditions qui per
-for (const chiffre of tabChiffres){
-    chiffre[i].addEventListener('click', function () {
+//Permet de connaître la valeur du bouton dans la classe tabChiffres
+for (const chiffre of tabChiffres) {
+    chiffre.addEventListener('click', function () {
         //Permet d'enlevé le '0' initial sur la calculatrice lorsque l'on tape un chiffre sur la calculatrice
         if (affichage.innerText ==='0' ) {
             affichage.innerText = '';
         }
+        //Affiche le nombre sur la calculatrice
         affichage.innerText += this.innerText;
-        conversionNombre(chiffre.id);
+        //Appel la fonction qui converti le chiffre de chaîne de caractère à Float
+        conversionNombre(tabChiffres.id);
+
+        //faire une condition if ou un addListener ou autre chose ou les deux lorsque je click sur un opérateur
     });
 }
-
+//Converti le chiffre de chaîne de caractère à Float
 function conversionNombre (chiffre) {
     chiffre = chiffre.id.value;
     nombre += chiffre;
