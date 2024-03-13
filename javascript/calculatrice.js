@@ -7,6 +7,14 @@
 
 'use strict'; // Active le mode strict du JavaScript
 
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/// C'ETAIT LE PREMIER ESSAIE, CA NE MARCHE PAS, C'EST NUL IL FAUT REGARDER LA BRANCHE CALCULATRICE PHYSIQUE OU MAIN///
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
 //Déclaration des boutons de la calculatrice
 const bouton = document.getElementsByClassName('btnCalculatrice');
 
@@ -169,7 +177,7 @@ function nettoyage(){
 }
 
 
-
+//Ca sert à rien, c'est juste pour tester un truc
 let a = 32;
 let b = 45.2;
 let c ='32';
@@ -179,24 +187,6 @@ let d = parseFloat( a + b +c);
 d = d / 2;
 
 console.log(d);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
