@@ -7,16 +7,18 @@
 
 'use strict'; // Active le mode strict du JavaScript
 
-//Permet de connaître la valeur d'une touche en parcourant la classe btnChiffre
+//Permet de connaître la valeur d'une touche d'un chiffre en parcourant la classe btnChiffre
 const tabChiffres = document.getElementsByClassName('btnChiffre');
-//
+//Permet de connaître la valeur d'une touche d'une opération en parcourant la classe btnChiffre
 const tabOperation = document.getElementsByClassName('btnOperation');
 
 //Va chercher l'id 'C' dans l'HTML
 const effacer = document.getElementById('clear');
 
+let nombre = 0;
 let nombre1 = 0;
 let nombre2 = 0;
+let resultat = 0;
 
 //Permet d'aller chercher l'élément qui affiche le nombre sur la calculatrice ("élément bleu")
 let affichage = document.getElementById('affichageNombre');
@@ -32,16 +34,12 @@ for (const chiffre of tabChiffres) {
         affichage.innerText += this.innerText;
         //Appel la fonction qui converti le chiffre de chaîne de caractère à Float
         nombre1 = conversionNombre(tabChiffres.id);
-
-        if ()
-        //faire appel à une condition if ou un addListener ou autre chose ou les deux lorsque je click sur un opérateur
-        //
-        executionOperation();
+        executionOperation(nombre1)
+        return nombre1;
     });
 }
 //Converti le chiffre de chaîne de caractère à Float
 function conversionNombre (chiffre) {
-    chiffre = chiffre.id.value;
     nombre += chiffre;
     nombre = parseFloat(chiffre);
     return nombre;
@@ -58,10 +56,27 @@ function nettoyage(){
     affichage.innerText = nombre;
 }
 */
-function executionOperation() {
+function executionOperation(nombre1, nombre2, resultat) {
     for (const operation of tabOperation) {
         operation.addEventListener('click', function () {
+        switch (operation){
 
+            case 'addition':
+                    resultat = nombre1 +nombre2;
+                    break;
+            case 'soustraction':
+                    resultat = nombre1 - nombre2;
+                    break;
+            case 'division':
+                    resultat = nombre1 / nombre2;
+                    break;
+            case 'multiplication':
+                    resultat = nombre1 * nombre2;
+                    break;
+
+                affichage.innerText = String(resultat);
+
+        }
         })
     }
 }
