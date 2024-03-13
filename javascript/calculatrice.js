@@ -19,6 +19,11 @@ let nombre = 0;
 let nombre1 = 0;
 let nombre2 = 0;
 let resultat = 0;
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+//FAUT TROUVER UN MOYEN D'UTILISER 2 FOIS LA FONCTION CONVESION NOMBRE POUR ENREGISTRER LES DEUX NOMBRE;///
+//IL FAUT AUSSI TROUVER UN MOYEN POUR ARRETER L'ENREGISTREMENT DU PREMIER NUMERO ET LE STOCKER          ///
+//FAUT PAS OUBLIER D'AJOUTER UN EVENEMETN POUR LE '=' ET AVOIR LE RESULTAT                              ///
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 //Permet d'aller chercher l'élément qui affiche le nombre sur la calculatrice ("élément bleu")
 let affichage = document.getElementById('affichageNombre');
