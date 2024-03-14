@@ -17,9 +17,18 @@ const effacer = document.getElementById('clear');
 
 const egal = document.getElementById('egal');
 
+//Class contenant le objet qui sont des operateur et font les calculs
+const calcul = {
+    '+' : function(nbr1, nbr2) { return nbr1 + nbr2},
+    '-' : function (nbr1, nbr2) { return nbr1 - nbr2},
+    '*' : function (nbr1, nbr2) { return nbr1 * nbr2},
+    '/' : function (nbr1, nbr2) { return nbr1 / nbr2},
+}
+
 let nombre = 0;
 let nombre1 = 0;
 let nombre2 = 0;
+let operateurUtilise = '';
 let resultat = 0;
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -96,3 +105,4 @@ function affichageResult(resultat){
         egal.innerText = resultat;
     })
 }
+
