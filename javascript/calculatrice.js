@@ -15,6 +15,8 @@ const tabOperation = document.getElementsByClassName('btnOperation');
 //Va chercher l'id 'C' dans l'HTML
 const effacer = document.getElementById('clear');
 
+const egal = document.getElementById('egal');
+
 let nombre = 0;
 let nombre1 = 0;
 let nombre2 = 0;
@@ -28,6 +30,8 @@ let resultat = 0;
 
 //Permet d'aller chercher l'élément qui affiche le nombre sur la calculatrice ("élément bleu")
 let affichage = document.getElementById('affichageNombre');
+
+//il faudra aussi limiter la taille du nombre
 
 //Permet de connaître la valeur du bouton dans la classe tabChiffres
 for (const chiffre of tabChiffres) {
@@ -44,20 +48,7 @@ for (const chiffre of tabChiffres) {
         return nombre1;
     });
 }
-for (const chiffre of tabChiffres) {
-    chiffre.addEventListener('click', function () {
-        //Permet d'enlevé le '0' initial sur la calculatrice lorsque l'on tape un chiffre sur la calculatrice
-        if (affichage.innerText ==='0' ) {
-            affichage.innerText = '';
-        }
-        //Affiche le nombre sur la calculatrice
-        affichage.innerText += chiffre.innerText;
-        //Appel la fonction qui converti le chiffre de chaîne de caractère à Float
-        nombre2 = conversionNombre(tabChiffres.id);
-        executionOperation(nombre2)
-        return nombre2;
-    });
-}
+
 //Converti le chiffre de chaîne de caractère à Float
 function conversionNombre (chiffre) {
     nombre += chiffre;
@@ -97,4 +88,11 @@ function executionOperation(nombre1,nombre2) {
         return resultat;
         })
     }
+}
+
+function affichageResult(resultat){
+    egal.addEventListener('click', function () {
+        resultat = String(resultat);
+        egal.innerText = resultat;
+    })
 }
