@@ -44,6 +44,20 @@ for (const chiffre of tabChiffres) {
         return nombre1;
     });
 }
+for (const chiffre of tabChiffres) {
+    chiffre.addEventListener('click', function () {
+        //Permet d'enlevé le '0' initial sur la calculatrice lorsque l'on tape un chiffre sur la calculatrice
+        if (affichage.innerText ==='0' ) {
+            affichage.innerText = '';
+        }
+        //Affiche le nombre sur la calculatrice
+        affichage.innerText += chiffre.innerText;
+        //Appel la fonction qui converti le chiffre de chaîne de caractère à Float
+        nombre2 = conversionNombre(tabChiffres.id);
+        executionOperation(nombre2)
+        return nombre2;
+    });
+}
 //Converti le chiffre de chaîne de caractère à Float
 function conversionNombre (chiffre) {
     nombre += chiffre;
@@ -62,7 +76,7 @@ function nettoyage(){
     affichage.innerText = nombre;
 }
 */
-function executionOperation(nombre1, nombre2, resultat) {
+function executionOperation(nombre1,nombre2) {
     for (const operation of tabOperation) {
         operation.addEventListener('click', function () {
         switch (operation){
@@ -79,10 +93,8 @@ function executionOperation(nombre1, nombre2, resultat) {
             case 'multiplication':
                     resultat = nombre1 * nombre2;
                     break;
-
-                affichage.innerText = String(resultat);
-
         }
+        return resultat;
         })
     }
 }
